@@ -13,9 +13,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/yuin/goldmark"
-	"github.com/yuin/goldmark/parser"
-	"github.com/yuin/goldmark/util"
+	"github.com/duglin/goldmark"
+	"github.com/duglin/goldmark/parser"
+	"github.com/duglin/goldmark/util"
 )
 
 // TestingT is a subset of the functionality provided by testing.T.

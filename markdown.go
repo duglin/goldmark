@@ -4,11 +4,11 @@ package goldmark
 import (
 	"io"
 
-	"github.com/yuin/goldmark/parser"
-	"github.com/yuin/goldmark/renderer"
-	"github.com/yuin/goldmark/renderer/html"
-	"github.com/yuin/goldmark/text"
-	"github.com/yuin/goldmark/util"
+	"github.com/duglin/goldmark/parser"
+	"github.com/duglin/goldmark/renderer"
+	"github.com/duglin/goldmark/renderer/html"
+	"github.com/duglin/goldmark/text"
+	"github.com/duglin/goldmark/util"
 )
 
 // DefaultParser returns a new Parser that is configured by default values.

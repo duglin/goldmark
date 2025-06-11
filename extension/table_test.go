@@ -3,14 +3,14 @@ package extension
 import (
 	"testing"
 
-	"github.com/yuin/goldmark"
-	"github.com/yuin/goldmark/ast"
-	east "github.com/yuin/goldmark/extension/ast"
-	"github.com/yuin/goldmark/parser"
-	"github.com/yuin/goldmark/renderer/html"
-	"github.com/yuin/goldmark/testutil"
-	"github.com/yuin/goldmark/text"
-	"github.com/yuin/goldmark/util"
+	"github.com/duglin/goldmark"
+	"github.com/duglin/goldmark/ast"
+	east "github.com/duglin/goldmark/extension/ast"
+	"github.com/duglin/goldmark/parser"
+	"github.com/duglin/goldmark/renderer/html"
+	"github.com/duglin/goldmark/testutil"
+	"github.com/duglin/goldmark/text"
+	"github.com/duglin/goldmark/util"
 )
 
 func TestTable(t *testing.T) {

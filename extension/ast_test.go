@@ -4,10 +4,10 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/yuin/goldmark"
-	"github.com/yuin/goldmark/renderer/html"
-	"github.com/yuin/goldmark/testutil"
-	"github.com/yuin/goldmark/text"
+	"github.com/duglin/goldmark"
+	"github.com/duglin/goldmark/renderer/html"
+	"github.com/duglin/goldmark/testutil"
+	"github.com/duglin/goldmark/text"
 )
 
 func TestASTBlockNodeText(t *testing.T) {

@@ -3,7 +3,7 @@ package ast
 import (
 	"fmt"
 
-	gast "github.com/yuin/goldmark/ast"
+	gast "github.com/duglin/goldmark/ast"
 )
 
 // A FootnoteLink struct represents a link to a footnote of Markdown

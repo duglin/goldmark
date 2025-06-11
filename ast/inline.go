@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	textm "github.com/yuin/goldmark/text"
-	"github.com/yuin/goldmark/util"
+	textm "github.com/duglin/goldmark/text"
+	"github.com/duglin/goldmark/util"
 )
 
 // A BaseInline struct implements the Node interface partialliy.

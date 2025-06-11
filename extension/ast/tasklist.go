@@ -2,7 +2,7 @@ package ast
 
 import (
 	"fmt"
-	gast "github.com/yuin/goldmark/ast"
+	gast "github.com/duglin/goldmark/ast"
 )
 
 // A TaskCheckBox struct represents a checkbox of a task list.

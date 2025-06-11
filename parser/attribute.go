@@ -5,8 +5,8 @@ import (
 	"io"
 	"strconv"
 
-	"github.com/yuin/goldmark/text"
-	"github.com/yuin/goldmark/util"
+	"github.com/duglin/goldmark/text"
+	"github.com/duglin/goldmark/util"
 )
 
 var attrNameID = []byte("id")

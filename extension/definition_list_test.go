@@ -3,9 +3,9 @@ package extension
 import (
 	"testing"
 
-	"github.com/yuin/goldmark"
-	"github.com/yuin/goldmark/renderer/html"
-	"github.com/yuin/goldmark/testutil"
+	"github.com/duglin/goldmark"
+	"github.com/duglin/goldmark/renderer/html"
+	"github.com/duglin/goldmark/testutil"
 )
 
 func TestDefinitionList(t *testing.T) {

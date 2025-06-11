@@ -6,9 +6,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/yuin/goldmark/ast"
-	"github.com/yuin/goldmark/text"
-	"github.com/yuin/goldmark/util"
+	"github.com/duglin/goldmark/ast"
+	"github.com/duglin/goldmark/text"
+	"github.com/duglin/goldmark/util"
 )
 
 // A Reference interface represents a link reference in Markdown text.
@@ -83,12 +83,12 @@ func (s *ids) Generate(value []byte, kind ast.NodeKind) []byte {
 		if l != 1 {
 			continue
 		}
-		if util.IsAlphaNumeric(v) {
+		if util.IsAlphaNumeric(v) || v == '_' {
 			if 'A' <= v && v <= 'Z' {
 				v += 'a' - 'A'
 			}
 			result = append(result, v)
-		} else if util.IsSpace(v) || v == '-' || v == '_' {
+		} else if util.IsSpace(v) || v == '-' {
 			result = append(result, '-')
 		}
 	}

@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/yuin/goldmark/ast"
-	"github.com/yuin/goldmark/text"
-	"github.com/yuin/goldmark/util"
+	"github.com/duglin/goldmark/ast"
+	"github.com/duglin/goldmark/text"
+	"github.com/duglin/goldmark/util"
 )
 
 var linkLabelStateKey = NewContextKey()

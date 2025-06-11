@@ -5,14 +5,14 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/yuin/goldmark"
-	gast "github.com/yuin/goldmark/ast"
-	"github.com/yuin/goldmark/extension/ast"
-	"github.com/yuin/goldmark/parser"
-	"github.com/yuin/goldmark/renderer"
-	"github.com/yuin/goldmark/renderer/html"
-	"github.com/yuin/goldmark/text"
-	"github.com/yuin/goldmark/util"
+	"github.com/duglin/goldmark"
+	gast "github.com/duglin/goldmark/ast"
+	"github.com/duglin/goldmark/extension/ast"
+	"github.com/duglin/goldmark/parser"
+	"github.com/duglin/goldmark/renderer"
+	"github.com/duglin/goldmark/renderer/html"
+	"github.com/duglin/goldmark/text"
+	"github.com/duglin/goldmark/util"
 )
 
 var footnoteListKey = parser.NewContextKey()
